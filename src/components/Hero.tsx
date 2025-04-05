@@ -4,6 +4,9 @@ import { OrbitControls, Environment } from '@react-three/drei';
 import { EffectComposer, Bloom } from '@react-three/postprocessing';
 import { motion } from 'framer-motion';
 
+import profilePic from '/assets/profile_pic.jpg';
+
+
 
 
 export function Hero() {
@@ -31,7 +34,7 @@ export function Hero() {
   className="text-center flex flex-col items-center"
 >
   <img
-    src="assets/profile_pic.jpg"
+    src={profilePic}
     alt="Rehan Qureshi"
     className="w-32 h-32 rounded-full object-cover border-4 border-blue-500 mb-4 shadow-lg"
   />
