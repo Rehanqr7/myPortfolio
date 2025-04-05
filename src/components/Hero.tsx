@@ -31,7 +31,7 @@ export function Hero() {
   className="text-center flex flex-col items-center"
 >
   <img
-    src="/assets/profile_pic.jpg"
+    src="assets/profile_pic.jpg"
     alt="Rehan Qureshi"
     className="w-32 h-32 rounded-full object-cover border-4 border-blue-500 mb-4 shadow-lg"
   />
@@ -60,7 +60,7 @@ export function Hero() {
       View Projects
     </a>
     <a
-      href="/assets/My_Resume.docx"
+      href="assets/My_Resume.docx"
       download
       className="bg-transparent text-white px-6 py-3 rounded-lg hover:bg-blue-800/30 transition-colors border border-blue-400"
     >
